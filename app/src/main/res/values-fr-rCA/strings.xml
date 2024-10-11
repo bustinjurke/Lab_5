@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello_world">Bonjour le monde</string>
-    <string name="button_text">Je suis un bouton!</string>
+    <string name="app_name">AndroidsLabs</string>
+    <string name="BTpressme">APPUYEZ SUR MOI</string>
+    <string name="LuvAndroid">J’adore Android</string>
+    <string name="Switchi_o">Allumer/éteindre</string>
+    <string name="checkbutton">Regarde ça!</string>
+    <string name="urgent">urgente</string>
+    <string name="add">ajouter</string>
+    <string name="cst2335_lab_4">CST2335 Lab 4</string>
+    <string name="type_here">Type Here</string>
 </resources>

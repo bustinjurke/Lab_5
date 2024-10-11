@@ -1,5 +1,6 @@
 plugins {
-    alias(libs.plugins.android.application)
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android") version "1.8.10"
 }
 
 android {
@@ -25,19 +26,25 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+    buildToolsVersion = "34.0.0"
 }
 
 dependencies {
-
+    implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.appcompat)
-    implementation(libs.material)
-    implementation(libs.activity)
+    implementation(libs.material.v150)
+    implementation(libs.androidx.activity.ktx)
     implementation(libs.constraintlayout)
     testImplementation(libs.junit)
-    androidTestImplementation(libs.ext.junit)
-    androidTestImplementation(libs.espresso.core)
+    androidTestImplementation(libs.androidx.junit.v113)
+    androidTestImplementation(libs.androidx.espresso.core.v340)
 }
