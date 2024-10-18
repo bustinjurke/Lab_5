@@ -7,6 +7,10 @@
     <string name="checkbutton">Regarde ça!</string>
     <string name="urgent">urgente</string>
     <string name="add">ajouter</string>
-    <string name="cst2335_lab_4">CST2335 Lab 4</string>
+    <string name="cst2335_lab_5">CST2335 Lab 5</string>
     <string name="type_here">Type Here</string>
+    <string name="confirmation_delete">Voulez-vous supprimer cet élément?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="delete_item">Supprimer l\'élément</string>
 </resources>
